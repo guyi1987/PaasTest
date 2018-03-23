@@ -1,0 +1,106 @@
+<applications>
+  <versions__delta>1</versions__delta>
+  <apps__hashcode>DOWN_1_UP_2_</apps__hashcode>
+  <application>
+    <name>FIRST-SERVICE-PROVIDER</name>
+    <instance>
+      <instanceId>think-PC:first-service-provider</instanceId>
+      <hostName>localhost</hostName>
+      <app>FIRST-SERVICE-PROVIDER</app>
+      <ipAddr>192.168.51.162</ipAddr>
+      <status>DOWN</status>
+      <overriddenstatus>UNKNOWN</overriddenstatus>
+      <port enabled="true">8080</port>
+      <securePort enabled="false">443</securePort>
+      <countryId>1</countryId>
+      <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>MyOwn</name>
+      </dataCenterInfo>
+      <leaseInfo>
+        <renewalIntervalInSecs>30</renewalIntervalInSecs>
+        <durationInSecs>90</durationInSecs>
+        <registrationTimestamp>1521442330625</registrationTimestamp>
+        <lastRenewalTimestamp>1521442330625</lastRenewalTimestamp>
+        <evictionTimestamp>0</evictionTimestamp>
+        <serviceUpTimestamp>0</serviceUpTimestamp>
+      </leaseInfo>
+      <metadata class="java.util.Collections$EmptyMap"/>
+      <homePageUrl>http://localhost:8080/</homePageUrl>
+      <statusPageUrl>http://localhost:8080/info</statusPageUrl>
+      <healthCheckUrl>http://localhost:8080/health</healthCheckUrl>
+      <vipAddress>first-service-provider</vipAddress>
+      <secureVipAddress>first-service-provider</secureVipAddress>
+      <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+      <lastUpdatedTimestamp>1521442330625</lastUpdatedTimestamp>
+      <lastDirtyTimestamp>1521442330606</lastDirtyTimestamp>
+      <actionType>ADDED</actionType>
+    </instance>
+  </application>
+  <application>
+    <name>SERVICE-HI</name>
+    <instance>
+      <instanceId>think-PC:service-hi:8763</instanceId>
+      <hostName>think-PC</hostName>
+      <app>SERVICE-HI</app>
+      <ipAddr>192.168.51.162</ipAddr>
+      <status>UP</status>
+      <overriddenstatus>UNKNOWN</overriddenstatus>
+      <port enabled="true">8763</port>
+      <securePort enabled="false">443</securePort>
+      <countryId>1</countryId>
+      <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>MyOwn</name>
+      </dataCenterInfo>
+      <leaseInfo>
+        <renewalIntervalInSecs>30</renewalIntervalInSecs>
+        <durationInSecs>90</durationInSecs>
+        <registrationTimestamp>1521442541781</registrationTimestamp>
+        <lastRenewalTimestamp>1521506439033</lastRenewalTimestamp>
+        <evictionTimestamp>0</evictionTimestamp>
+        <serviceUpTimestamp>1521442541781</serviceUpTimestamp>
+      </leaseInfo>
+      <metadata class="java.util.Collections$EmptyMap"/>
+      <homePageUrl>http://think-PC:8763/</homePageUrl>
+      <statusPageUrl>http://think-PC:8763/info</statusPageUrl>
+      <healthCheckUrl>http://think-PC:8763/health</healthCheckUrl>
+      <vipAddress>service-hi</vipAddress>
+      <secureVipAddress>service-hi</secureVipAddress>
+      <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+      <lastUpdatedTimestamp>1521442541781</lastUpdatedTimestamp>
+      <lastDirtyTimestamp>1521442541737</lastDirtyTimestamp>
+      <actionType>ADDED</actionType>
+    </instance>
+    <instance>
+      <instanceId>think-PC:service-hi:8762</instanceId>
+      <hostName>think-PC</hostName>
+      <app>SERVICE-HI</app>
+      <ipAddr>192.168.51.162</ipAddr>
+      <status>UP</status>
+      <overriddenstatus>UNKNOWN</overriddenstatus>
+      <port enabled="true">8762</port>
+      <securePort enabled="false">443</securePort>
+      <countryId>1</countryId>
+      <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+        <name>MyOwn</name>
+      </dataCenterInfo>
+      <leaseInfo>
+        <renewalIntervalInSecs>30</renewalIntervalInSecs>
+        <durationInSecs>90</durationInSecs>
+        <registrationTimestamp>1521442494593</registrationTimestamp>
+        <lastRenewalTimestamp>1521506443538</lastRenewalTimestamp>
+        <evictionTimestamp>0</evictionTimestamp>
+        <serviceUpTimestamp>1521442494593</serviceUpTimestamp>
+      </leaseInfo>
+      <metadata class="java.util.Collections$EmptyMap"/>
+      <homePageUrl>http://think-PC:8762/</homePageUrl>
+      <statusPageUrl>http://think-PC:8762/info</statusPageUrl>
+      <healthCheckUrl>http://think-PC:8762/health</healthCheckUrl>
+      <vipAddress>service-hi</vipAddress>
+      <secureVipAddress>service-hi</secureVipAddress>
+      <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+      <lastUpdatedTimestamp>1521442494593</lastUpdatedTimestamp>
+      <lastDirtyTimestamp>1521442494531</lastDirtyTimestamp>
+      <actionType>ADDED</actionType>
+    </instance>
+  </application>
+</applications>
